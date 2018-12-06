@@ -1,0 +1,230 @@
+.cRed {
+    border-bottom: 1px solid red;
+}
+.white {
+    color: white !important;
+}
+.bgRed {
+    background-color: #f00;
+}
+.h2Title {
+    height: 76px;
+    font: normal 700 24px/76px "微软雅黑";
+    text-align: center;
+    position: relative;
+}
+.more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #666;
+    font-size: 12px;
+}
+.p1 {
+    font: normal 700 18px/36px "微软雅黑";
+    height: 36px;
+    padding-left: 10px;
+}
+.p2 {
+    font-family: "微软雅黑";
+    padding-left: 10px;
+}
+.fz14 {
+    font-size: 14px;
+}
+/* 首页导航B */
+.nav {
+    height: 77px;
+    background-color: #fff;
+}
+.nav .nav_c {
+    height: 77px;
+}
+.nav .nav_c li {
+    float: left;
+    height: 77px;
+    font:normal normal 18px/77px "微软雅黑";
+    margin-right: 25px;
+}
+.nav .nav_c li a {
+    color: #666;
+}
+.nav .nav_c li a:hover {
+    color: red;
+}
+/* 首页导航E */
+/* 首页banner B */
+.banner {
+    position: relative;
+}
+.banner ul {
+    margin: 0 auto;
+    width: 1320px;
+}
+.banner ul li {
+    float: left;
+    width: 330px;
+    background-color: #f00;
+    position: relative;
+}
+.banner ul li img {
+    vertical-align: middle;
+}
+.banner .des {
+    width: 330px;
+    height: 63px;
+    background-color: rgba(255, 255, 255, .6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.banner .arrow a {
+    background-color: #f00;
+    width: 145px;
+    height: 77px;
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    background: url(../images/sprite.png) no-repeat;
+}
+.banner .arrow .a_left {
+    left: 180px;
+    background-position: 0 -64px;
+}
+.banner .arrow .a_right {
+    right: 180px;
+    background-position: 0 -164px;
+}
+.banner  .a_left .word {
+    height: 48px;
+    line-height: 24px;
+    display: inline-block;
+    margin: 15px 15px 0 25px;    
+    color: #fff;
+    text-align: right;
+}
+.banner  .a_left .img{
+    width: 16px;
+    height: 48px;
+    margin-top: 15px;
+    display: inline-block;
+    background: url(../images/sprite.png) 0 -264px;
+    vertical-align: top;
+}
+/* 首页banner E */
+/* 首页搜索 B */
+.search {
+    height: 100px;
+    background-color: #3F3A32;
+    overflow: hidden;
+}
+.search .s_center {
+    width: 728px;
+    height: 77px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.search .s_center .txt {
+    width: 510px;
+    height: 77px;
+    outline: none;
+    font: normal normal 18px "微软雅黑";
+    padding-left: 45px;
+}
+.search .s_center .btn {
+    background-color: #f00;
+    width: 173px;
+    height: 77px;
+    border: none;
+    outline: none;
+    font: normal normal 18px "微软雅黑";
+    color: #fff;
+}
+/* 首页搜索 E */
+/* 首页菜单 B */
+.menu {
+    overflow: hidden;
+}
+.menu .img {
+    width: 1010px;
+}
+.menu .img li {
+    width: 334px;
+    float: left;
+}
+.menu .img li a {
+
+}
+.menu .img img {
+    vertical-align: middle;
+}
+.menu .img .word {
+    width: 334px;
+    height: 57px;
+    background-color: #fff;
+}
+.arrow_pos {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.arrow_pos .arrow  a{
+    width: 30px;
+    height: 98px;
+    display: inline-block;
+    position: absolute;
+    top: 145px;
+    background: url(../images/sprite.png) no-repeat;
+}
+.arrow_pos .arrow .a1 {
+    left: 30px;
+    background-position: 0 -320px;
+}
+.arrow_pos .arrow .a2 {
+    right: 30px;
+    background-position: -30px -320px;
+}
+/* 首页菜单 E */
+/* 首页食材 B */
+.food {
+    overflow: hidden;
+}
+.food .f_nav {
+    background-color: #fff;
+}
+.food .f_nav li{
+    float: left;
+    height: 42px;
+    font: normal 700 22px/42px "微软雅黑";
+    width: 103px;
+    text-align: center;
+}
+.food .f_nav li a {
+    color: #666;
+}
+.food .f_img {
+    width: 1010px;
+}
+.food .f_img li{
+    width: 167px;
+    height: 167px;
+    line-height: 167px;
+    background-color: #fff;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.food .f_img li img {
+    vertical-align: middle;
+}
+.food .f_img li span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    width: 167px;
+    background-color: rgba(255, 255, 255, .6);   
+    font: normal 700 18px/60px "微软雅黑";
+}
+/* 首页食材 E */
